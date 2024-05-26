@@ -6,4 +6,4 @@ COPY . /usr/local/apache2/htdocs/
 
 EXPOSE 80
 
-CMD ["service" "apache" "start]
+CMD ["apachectl", "-D", "FOREGROUND"]
